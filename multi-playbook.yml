@@ -10,7 +10,7 @@
      debug: 
        msg: "Hello from playbook1 and Tasks2"
 
-- name: print multiplr playbooks
+- name: print playbook2
   hosts: local
   connection: local
   tasks:
