@@ -1,28 +1,23 @@
-
-
-
-- name: "print playbook1 and tasks"
+- name: multi playbook demo
   hosts: local
   connection: local
   tasks:
-    - name: "print playbook1 and task1"
+    - name: playbook1 
       debug:
-       msg: "Hello from playbook1 tasks1"
-  tasks:
-    - name: "print playbook1 and task2"
+        msg: "Playbook1 and Task1"
+    - name: playbook2
       debug:
-       msg: "Hello from playbook1 and Tasks2"
+        msg: "Playbook1 and Task2"
 
-- name: "print playbook2 and tasks"
+- name: multi playbook demo
   hosts: local
   connection: local
   tasks:
-    - name: "print playbook2 and task1"
+    - name: playbook2
       debug:
-       msg: "Hello from playbook2 and task1"
-  tasks:
-    - name: "print playbook2 and task2"
+        msg: "Playbook2 and Task1"
+    - name: playbook2
       debug:
-       msg: "Hello from playbook2 and tasks2"
+        msg: "Playbook2 and Task2"
 
 
