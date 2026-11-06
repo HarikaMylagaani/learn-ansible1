@@ -1,4 +1,4 @@
-- name: print multiplr playbooks
+- name: print multiple playbooks
   hosts: local
   connection: local
   tasks:
@@ -16,7 +16,7 @@
   tasks:
    - name: print Task1 and playbook2
      debug: 
-       msg: "Hello from playbook2 and Task-1"
+       msg: "Hello from playbook2 and Task"
   tasks:
    - name: print from Task2 and playbook2
      debug: 
