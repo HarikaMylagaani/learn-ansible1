@@ -1,0 +1,23 @@
+- name: print multiplr playbooks
+  hosts: local
+  connection: local
+  tasks:
+   - name: print Task1 and playbook1
+     debug: 
+       msg: "Hello from playbook1 tasks1"
+  tasks:
+   - name: print from Task2 and playbook1
+     debug: 
+       msg: "Hello from playbook1 and Tasks2"
+
+- name: print multiplr playbooks
+  hosts: local
+  connection: local
+  tasks:
+   - name: print Task1 and playbook2
+     debug: 
+       msg: "Hello from playbook2 and Task-1"
+  tasks:
+   - name: print from Task2 and playbook2
+     debug: 
+       msg: "Hello from playbook2 and Task2"
