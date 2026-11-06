@@ -10,17 +10,16 @@
       debug:
        msg: "Hello from playbook1 and Tasks2"
 
-- name: "print playbook2 and task1"
+- name: print multiple playbooks
   hosts: local
   connection: local
   tasks:
-    - name: "print playbook1 and task1"
+    - name: "print playbook2 and task1"
       debug:
-       msg: "Hello from playbook1 tasks1"
-    
+       msg: "Hello from playbook2 and task1"
   tasks:
-   - name: "print playbook2 and task2"
-     debug: 
-       msg: "Hello from playbook2 and task2"
+    - name: "print playbook2 and task2"
+      debug:
+       msg: "Hello from playbook2 and tasks2"
 
 
