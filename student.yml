@@ -1,0 +1,41 @@
+- firstname: Deeshu
+  lastname: Kartheek
+  class: Nursery
+  addresses:
+    - type: Home
+      street: Gagam
+      Flat: 903
+      city: Pune
+    - type: School
+      street: Sankriti road
+      flat: 101
+      City: Hyderabad
+  hobbies:
+    Morning: Reading
+    Afternoon: sleeping
+    Evening: Playing
+    Night: Watching TV
+
+- firstname: Harika
+  lastname: Kartheek
+  class: Btech
+  addresses:
+    - type: Home
+      street: Majestique
+      Flat: 903
+      city: Pune
+    - type: School
+      street: Sankriti road
+      flat: 101
+      City: Hyderabad
+  hobbies:
+    Morning: Reading
+    Afternoon: work
+    Evening: Tea
+    Night: sleeping
+
+
+
+
+
+     
