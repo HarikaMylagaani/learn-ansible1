@@ -2,9 +2,10 @@
   hosts: local
   connection: local
   vars_files:
-   - course.yml
+  - course.yaml
   tasks:
    - name: print course variable
      debug:
-      msg: "Hi I am {{ Wife }} wife of {{ Husband }} and baby is {{ Baby }} "
+      msg: " Hi, am {{ wife }}  of {{ husband }} and baby is {{ baby }}"
+      
       
