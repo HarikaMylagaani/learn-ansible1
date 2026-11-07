@@ -1,0 +1,7 @@
+- name: print greet abd propose
+  hosts: local
+  connection: local
+  tasks: 
+   - name: print greet
+     debug:
+      msg: "Hi {{ Person }} I love you "
