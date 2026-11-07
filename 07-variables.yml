@@ -1,0 +1,8 @@
+- name: print variables from course
+  hosts: local
+  connection: local
+  tasks:
+   - name: print course variable
+     debug:
+      msg: "Hi I am {{ Wife }} wife of {{ Husband }} and baby is {{ Baby }} "
+      
