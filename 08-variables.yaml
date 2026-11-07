@@ -8,7 +8,7 @@
   - name: password
     prompt: Please enter password
     private: false
-    tasks:
-    - name: print user credentials
-      debug:
+  tasks:
+   - name: print user credentials
+     debug:
         msg: " Username is {{ username }} password is {{ password }} "
