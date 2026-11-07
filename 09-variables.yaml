@@ -1,0 +1,6 @@
+- name: print variables from inventory file
+  hosts: frontend
+  tasks:
+  - name: print from inventory
+    debug: 
+     msg: " Hi Iam {{wife}} wife of {{husband}} and baby is {{baby}}"
