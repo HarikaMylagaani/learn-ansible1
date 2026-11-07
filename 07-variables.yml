@@ -1,6 +1,8 @@
 - name: print variables from course
   hosts: local
   connection: local
+  vars_files:
+   - course.yml
   tasks:
    - name: print course variable
      debug:
