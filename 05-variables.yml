@@ -1,0 +1,12 @@
+- name: print variables demo
+  hosts: local
+  connection: local
+  vars:
+   course: Devops
+   Learner: Harika
+   Trainer: Siva
+  tasks:
+  - name: print vars
+    debug:
+      msg: "Hi , I am {{ Learner }} learning {{ course }} from {{ Trainer }}"
+
