@@ -4,4 +4,4 @@
   tasks: 
    - name: print greet
      debug:
-      msg: "Hi {{ Person }} I love you "
+      msg: "Hi {{ Person }} How are you "
